@@ -1,0 +1,48 @@
+.home-presentation-container{
+	background-image: url('../../../assets/images/home/presentation/presentationBackground.png');
+	background-size: cover;
+	background-repeat: no-repeat;	
+	width: 100%;
+	
+	/* margin-top: 10vh; */
+	
+	margin-bottom:15vh;
+}
+.home-presentation{	
+	padding-top: 32vh;
+	padding-left:20vh;
+	
+}
+
+.home-presentation-title{
+	font-family: 'Helvetica-bold';
+	color:white;
+	font-size:3vh;
+}
+.home-presentation-paragraph{
+  width:50vh;
+  text-align: start;
+  font-size: 2vh;
+}
+
+@media (max-width: 700px){
+	.home-presentation{	
+		padding-top: 25vh;
+		padding-left:3vh;
+		
+	}
+	.home-presentation-container{
+		padding-bottom: 0vh;
+		
+	}
+	.home-presentation-title{		
+		font-size:2vh;
+	}
+	.home-presentation-paragraph{
+		width: 300px;
+		font-size: 1.2vh;
+	}
+	.home-presentation-title span{
+		display: block;
+	}
+}

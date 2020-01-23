@@ -1,0 +1,18 @@
+.impressium{
+    text-align: start;
+    padding:1vh 0 0 1vh;
+}
+.impressium-title{
+    font-family:'Helvetica-bold';
+    font-size:3vh;
+}
+.impressium-desc{
+    font-size:2vh;
+}
+
+.impressium-desc span{
+display :block;
+}
+.conditions{
+    margin-top:2vh;
+}

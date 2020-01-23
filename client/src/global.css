@@ -1,0 +1,23 @@
+@font-face{
+    font-family: Helvetica-light;
+    src: url("assets/fonts/HelveticaNeueLTStd-Roman.otf") format("opentype");
+}
+@font-face{
+    font-family: Helvetica-bold;
+    src: url("assets/fonts/HelveticaNeueLTStd-BdEx.otf") format("opentype");
+}
+
+html{
+    height:100%;
+}
+body{
+    font-family: 'Helvetica-light';
+    background-color: black;
+    margin:0;
+    padding:0;
+    position: relative;
+    min-height: 100%;
+    color:white;
+    display : table;
+	width: 100%;
+}
