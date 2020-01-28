@@ -12,6 +12,7 @@ function App (){
        <Route exact path= {routes.home.path} component= {routes.home.component}/> 
        <Route exact path= {routes.products.path} component= {routes.products.component}/>        
        <Route exact path= {routes.rental.path} component= {routes.rental.component}/> 
+       <Route exact path= {routes.service.path} component= {routes.service.component}/> 
      </Layout>
      <Route exact path= {routes.impressium.path} component= {routes.impressium.component}/> 
     </div>

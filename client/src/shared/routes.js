@@ -3,6 +3,8 @@ import Home from '../pages/home'
 import Impressium from '../pages/impressium'
 import Products from '../pages/products'
 import Rental from '../pages/rental'
+import Service from '../pages/services'
+
 
 
 
@@ -22,5 +24,9 @@ export default {
     rental : {
         path :'/rental',
         component : Rental
+    },
+    service : {
+        path :'/services',
+        component : Service
     }
 }
