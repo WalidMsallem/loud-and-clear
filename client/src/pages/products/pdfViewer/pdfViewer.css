@@ -1,0 +1,80 @@
+.pdf-viewer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.page-indicator{
+    font-size: 1.5vh;
+    text-align: center;
+}
+.columns, .is-gapless{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar{
+    width: max-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-concas{
+    width: max-content;
+}
+.css{
+    width: max-content;
+}
+
+/*button*/
+.product-catalogue-link {    
+    margin-right: 50px;
+    font-weight: bold;
+    width:300px;
+    height:150px;
+    background: white;
+    color: black;
+    border: 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+  }
+  .catalogue-link {     
+      color: black;
+  }
+  .catalogue-link:hover{
+      color:black;
+  }
+  .product-catalogue-link:hover {
+    animation-name: shakeAnim;
+    /* background: black;
+    color: white; */
+  }
+  
+ 
+  @media (max-width:700px){
+  .pdf-viewer-container{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.product-catalogue-link {
+  
+    margin-right: 0px;
+    margin-top:30px;
+    width:200px;
+    height:120px;
+    font-size: 15px;
+
+}
+
+}
