@@ -23,8 +23,8 @@ var transporter = nodemailer.createTransport({
   });
 
   var test = {
-    name: 'walid',
-    email : 'walidmsallem@gmail.com'
+    name: 'amine',
+    email : 'amine.daoussi@gmail.com'
   }
 
 // Serve the static files from the React app

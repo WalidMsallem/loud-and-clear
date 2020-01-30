@@ -5,10 +5,12 @@
     align-items: center;
     font-weight: bold;
     margin: 0 auto ;
+    width: 100%;
     height: 8vh;   
     padding: 0.5vh 2vh;
     background: black;
     z-index: 3;
+   
   }
   .nav-bar-link{
     color:white!important;   
