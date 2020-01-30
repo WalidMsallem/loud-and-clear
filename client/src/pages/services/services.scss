@@ -1,0 +1,27 @@
+.services {
+    margin: auto 40px ;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .content-for-bund-item{
+     display: flex;
+     &__info {
+      flex : 4 ;
+      margin-left: 15px;
+     }
+     &__image {
+       flex : 6 ;
+       img {
+         width: 100%;
+       }
+    }
+    }
+  }
+  .sub-tabs{
+    background-color: white!important;
+    color:black!important;
+  }
+  .sub-tabs h1{
+    color:black!important;
+  }
