@@ -1,0 +1,82 @@
+[
+  {
+    "id": "app.containers.rental.title1",
+    "defaultMessage": "Title 1",
+    "filepath": "src/pages/home/presentation/message.js"
+  },
+  {
+    "id": "app.containers.rental.title2",
+    "defaultMessage": "Title 2",
+    "filepath": "src/pages/home/presentation/message.js"
+  },
+  {
+    "id": "app.containers.rental.title3",
+    "defaultMessage": "Title 3",
+    "filepath": "src/pages/home/presentation/message.js"
+  },
+  {
+    "id": "app.containers.rental.MinuitUneIVCarre",
+    "defaultMessage": "Minuit Une IVL carré",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.monitoringBundle",
+    "defaultMessage": "Monitoring bundle",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.paBundles",
+    "defaultMessage": "PA bundles",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleXS",
+    "defaultMessage": "bundle XS (point source)",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleS",
+    "defaultMessage": "Bundle S",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleM",
+    "defaultMessage": "Bundle M",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleL",
+    "defaultMessage": "Bundle L",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleXl",
+    "defaultMessage": "Bundle XL",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.rental.bundleXxl",
+    "defaultMessage": "Bundle XXL",
+    "filepath": "src/pages/rental/message.js"
+  },
+  {
+    "id": "app.containers.services.loudPofessionalRental",
+    "defaultMessage": "LOUD PROFESSIONAL RENTAL",
+    "filepath": "src/pages/services/messages.js"
+  },
+  {
+    "id": "app.containers.services.minuitUneIVLlasersRental",
+    "defaultMessage": "MINUIT UNE IVL LASERS RENTAL",
+    "filepath": "src/pages/services/messages.js"
+  },
+  {
+    "id": "app.containers.services.production",
+    "defaultMessage": "PRODUCTION",
+    "filepath": "src/pages/services/messages.js"
+  },
+  {
+    "id": "app.containers.services.authorizedReseller",
+    "defaultMessage": "AUTHORIZED RESELLER",
+    "filepath": "src/pages/services/messages.js"
+  }
+]
