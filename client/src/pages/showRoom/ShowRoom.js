@@ -1,6 +1,6 @@
 import React from 'react'
 import './showRoom.css'
-import Maps from './maps'
+// import Maps from './maps'
 
 const ShowRoom =()=>{
     return (
@@ -19,7 +19,7 @@ const ShowRoom =()=>{
                     <span>DE-13357 BERLIN</span>
                     <span>Free parking available in front to the door</span>                    
                 </div>
-                <Maps/>
+                {/* <Maps/> */}
             </div>
             <div className='opening'>
                 <span className='opening-title'></span>
