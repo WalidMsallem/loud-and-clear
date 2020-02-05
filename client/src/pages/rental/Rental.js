@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment ,memo} from "react";
 import CustomizedTabs from "../../shared/components/customizedTabs";
 import ImageGallery from "react-image-gallery";
 import ContactForm from "./contact"
@@ -82,11 +82,11 @@ const Rental = () => {
     }
   ];
   return (
-    <div className="rental ">
+    <div className="rental">
       <CustomizedTabs tabMenu={tabMenu} className="rental-tabs" />
         <ContactForm />
     </div>
   );
 };
 
-export default Rental;
+export default memo (Rental);

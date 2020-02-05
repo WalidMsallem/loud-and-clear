@@ -1,0 +1,18 @@
+{
+  "app.containers.rental.MinuitUneIVCarre": "Minuit Une IVL carré eneenenene",
+  "app.containers.rental.bundleL": "Bundle L",
+  "app.containers.rental.bundleM": "Bundle M",
+  "app.containers.rental.bundleS": "Bundle S",
+  "app.containers.rental.bundleXS": "bundle XS (point source)",
+  "app.containers.rental.bundleXl": "Bundle XL",
+  "app.containers.rental.bundleXxl": "Bundle XXL",
+  "app.containers.rental.monitoringBundle": "Monitoring bundle",
+  "app.containers.rental.paBundles": "PA bundles",
+  "app.containers.rental.title1": "Title 1",
+  "app.containers.rental.title2": "Title 2",
+  "app.containers.rental.title3": "Title 3",
+  "app.containers.services.authorizedReseller": "AUTHORIZED RESELLER",
+  "app.containers.services.loudPofessionalRental": "LOUD PROFESSIONAL RENTAL",
+  "app.containers.services.minuitUneIVLlasersRental": "MINUIT UNE IVL LASERS RENTAL",
+  "app.containers.services.production": "PRODUCTION"
+}

@@ -6,6 +6,7 @@ import Rental from '../pages/rental'
 import Contact from '../pages/contact'
 import ShowRoom from '../pages/showRoom'
 import Service from '../pages/services'
+import Events from '../pages/events'
 
 
 
@@ -39,5 +40,8 @@ export default {
         path:'/showRoom',
         component:ShowRoom
     },
- 
+    events:{
+        path:'/events',
+        component:Events
+    },
 }

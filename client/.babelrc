@@ -3,5 +3,11 @@
     "es2015",
     "stage-2",
 	  "react"
-  ]
+  ],
+  "plugins": [
+    [ "react-intl", {
+        "messagesDir": "./build/messages",
+        "extractSourceLocation": true
+    }]
+]
 }

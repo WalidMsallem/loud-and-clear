@@ -1,0 +1,19 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.events {
+  margin: auto 40px ;
+  padding-bottom:200px;
+  width: 90%;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.sub-tabs{
+  background-color: white!important;
+  color:black!important;
+}
+.sub-tabs h1{
+  color:black!important;
+}
