@@ -1,0 +1,21 @@
+.container-element{
+    height: 50vh;
+    width: 100vh;
+   
+}
+@media(max-width:700px){
+    .container-element{
+        height: 250px;
+        width: 400px;
+       
+    }
+}
+
+@media(max-width:430px){
+    .container-element{
+        height: 220px;
+        width: 300px;
+       
+    }
+
+}

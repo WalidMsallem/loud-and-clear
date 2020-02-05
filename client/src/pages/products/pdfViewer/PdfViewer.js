@@ -26,7 +26,7 @@ const PdfViewer = (props) => {
                 <PDFViewer 
                         css='css'
                         canvasCss='css-concas'
-                        scale={0.9}
+                        scale={1}
                         document={{
                             url: pdf,
                         }}
