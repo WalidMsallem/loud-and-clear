@@ -20,6 +20,7 @@ function App (){
           <Route exact path= {routes.service.path} component= {routes.service.component}/> 
         </Layout>
         <Route exact path= {routes.impressium.path} component= {routes.impressium.component}/> 
+        <Route exact path= {routes.events.path} component= {routes.events.component}/> 
         
         </div>
         </BrowserRouter>
