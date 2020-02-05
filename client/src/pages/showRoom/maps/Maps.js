@@ -1,5 +1,6 @@
 import React from 'react'
 import { compose, withProps } from "recompose"
+import './maps.css'
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps"
 
 const MyMapComponent = compose(
@@ -8,7 +9,7 @@ const MyMapComponent = compose(
     googleMapURL: "https://maps.googleapis.com/maps/api/js?key=&callback=initMap",
     
     loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
+    containerElement: <div  className='container-element' />,
     mapElement: <div style={{ height: `100%` }} />,
   }),
   withScriptjs,
