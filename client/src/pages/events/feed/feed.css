@@ -1,0 +1,14 @@
+.feed{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.facebook, .instagram{
+    background-color: white;
+    width:700px;
+    overflow-x: hidden; 
+overflow-y: auto;
+height:500px
+}
