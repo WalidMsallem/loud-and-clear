@@ -1,5 +1,6 @@
 import React , { Fragment ,memo } from 'react';
 import { FormattedMessage } from "react-intl";
+import Feed from './feed'
 import CustomizedTabs from "../../shared/components/customizedTabs";
 import ImageGallery from "react-image-gallery";
 import {partnerAndClientEventsImages ,ourEventsImages ,loudProffesionalEventImages } from "./data";
@@ -11,7 +12,7 @@ const CarrosselContainer = ({images}) => {
       return <Fragment />
     }
     return < div>
-          <ImageGallery items={images} sizes="40" />;
+          <ImageGallery items={images} sizes="20" />;
     </div>
   }
 
@@ -40,6 +41,8 @@ const Events = () => {
     return (
         <div  className="events">
       <CustomizedTabs tabMenu={tabMenu} className="rental-tabs" />
+      {/* <InstagramFeed/> */}
+      <Feed/>
         </div>
     );
 }
